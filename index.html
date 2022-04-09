@@ -3,13 +3,14 @@ layout: default
 title: home
 ---
 
-<h1>Latest Posts</h1>
+<h1>Things You Can Read</h1>
 
 <ul>
   {% for post in site.posts %}
   <li>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
+    <p class="date-line">{{ post.blurb }}</p>
   </li>
+
   {% endfor %}
 </ul>

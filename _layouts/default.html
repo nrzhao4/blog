@@ -4,8 +4,15 @@
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Public+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    {% include navigation.html %} {{ content }}
+    {% include navigation.html %}
+    <div class="body-container">{{ content }}</div>
   </body>
 </html>

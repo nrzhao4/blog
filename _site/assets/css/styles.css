@@ -1,3 +1,31 @@
-.current { color: green; }
+.body-container { margin: 20px 15px; }
+
+.body-container h1 { font-family: "Public Sans", sans-serif; margin-bottom: 220px; }
+
+.body-container h2 { margin-bottom: 5px; font-family: "Public Sans", sans-serif; }
+
+.body-container h3 { font-family: "Public Sans", sans-serif; color: lightblue; margin: 0; }
+
+.body-container p { font-family: "Mukta", sans-serif; line-height: 26px; }
+
+.body-container ul { margin: 0; padding: 0; list-style-type: none; }
+
+.body-container ul a { text-decoration: none; color: black; }
+
+.body-container ul a:visited { color: black; }
+
+.body-container ul a:hover { text-decoration: line-through; color: orange; }
+
+.body-container .date-line { margin: 0; color: grey; font-size: 12pt; }
+
+nav { font-family: "Mukta", sans-serif; margin: 10px; border-style: solid; border-width: 0 0 2px 0; border-color: orange; }
+
+nav a { margin: 0 10px; text-decoration: none; color: black; }
+
+nav a:visited { color: black; }
+
+nav a:hover { text-decoration: line-through; text-decoration-color: orange; color: orange; }
+
+@media only screen and (min-width: 800px) { .body-container { margin: 20px 400px; } nav { margin: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
