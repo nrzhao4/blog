@@ -26,6 +26,6 @@ nav a:visited { color: black; }
 
 nav a:hover { text-decoration: line-through; text-decoration-color: orange; color: orange; }
 
-@media only screen and (min-width: 800px) { .body-container { margin: 20px 400px; } nav { margin: 20px; } }
+@media only screen and (min-width: 1200px) { .body-container { margin: 20px 400px; } nav { margin: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

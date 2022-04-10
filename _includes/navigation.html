@@ -1,12 +1,5 @@
 <nav>
-  {% if jekyll.environment == "production" %}
-    {% for item in site.data.navigation_prod %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
-  {% endif %}
-  {% if jekyll.environment == "development" %}
-    {% for item in site.data.navigation_dev %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
-  {% endif %}
+  {% for item in site.data.navigation_prod %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
 </nav>
